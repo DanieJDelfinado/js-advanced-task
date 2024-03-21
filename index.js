@@ -4,7 +4,7 @@ import { Calculator, convertToJson, saveToLocalStorage, getFromLocalStorage, isP
 // Main Program
 document.addEventListener("DOMContentLoaded", async () => {
     // User Input
-    const number = getUserInput();
+    
     
     // Ternary Operator
     const isPositiveNumber = isPositive(number);
